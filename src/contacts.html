@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Contacts"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="contacts">
+				<div class="map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17836.348047395328!2d-122.42790545847589!3d37.78885242265743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580f18d8c6ea7%3A0x5d7f53fb70a3a903!2zNzI1IEdyZWVuIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEzMywg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1650993590774!5m2!1sru!2sua"
+						width="100%" height="578" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="container">
+					<div class="contacts__title title">Contact Us</div>
+					<div class="contacts__body">
+						<div class="contacts__socials">
+							<a href="" class="contacts__socials-link icon-instagram"></a>
+							<a href="" class="contacts__socials-link icon-facebook"></a>
+							<a href="" class="contacts__socials-link icon-pinterest"></a>
+							<a href="" class="contacts__socials-link icon-whatsapp"></a>
+							<a href="" class="contacts__socials-link icon-youtube"></a>
+						</div>
+						<p class="contacts__text">
+							Vexillologist vape microdosing freegan pork belly deep v direct trade cray single-origin
+							coffee street art. Viral shaman mustache master cleanse, pour-over affogato poutine copper
+							mug marfa fanny pack normcore. Lo-fi pop-up banjo portland, echo park hammock
+						</p>
+						<div class="contacts__info info-contacts">
+							<a href="tel:(415) 829-7934" class="info-contacts__tel">(415) 829-7934</a>
+							<a href="tel:(415) 829-7934" class="info-contacts__adress">725 Green St <br> San Francisco,
+								California(CA), 94133</a>
+							<a href="mailto:ouremailaddress@email.com"
+								class="info-contacts__email icon-envelope">ouremailaddress@email.com</a>
+						</div>
+						<form action="#" class="contacts__form form-contacts">
+							<div class="form-contacts__input-body">
+								<input type="text" placeholder="Your name" class="form-contacts__input">
+								<input type="email" placeholder="Your e-mail" class="form-contacts__input">
+							</div>
+							<textarea class="form-contacts__textarea" placeholder="Your message"></textarea>
+							<button class="form-contacts__button btn" type="submit">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

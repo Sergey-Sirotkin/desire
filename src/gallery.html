@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Gallery"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="gallery-page">
+				<div class="gallery">
+					<div class="container">
+						<div class="gallery__buttons">
+							<button class="gallery__button">Bedroom furniture</button>
+							<button class="gallery__button gallery__button_active">Living room furniture</button>
+							<button class="gallery__button">Office furniture</button>
+							<button class="gallery__button">Dining room futniture</button>
+							<button class="gallery__button">Chair</button>
+						</div>
+					</div>
+					<div class="gallery__inner">
+						<div class="gallery__inner-left">
+							<a data-gallery href="" class="gallery__item-left">
+								<img src="img/gallery-page/1.jpg" alt="1">
+							</a>
+						</div>
+						<div class="gallery__inner-right">
+							<div class="gallery__inner-right-1">
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/2.jpg" alt="2">
+								</a>
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/3.jpg" alt="3">
+								</a>
+							</div>
+							<div class="gallery__inner-right-2">
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/4.jpg" alt="4">
+								</a>
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/5.jpg" alt="5">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery">
+					<div class="container">
+					</div>
+					<div class="gallery__inner gallery__inner_reverse">
+						<div class="gallery__inner-left gallery__inner-left_reverse">
+							<a data-gallery href="" class="gallery__item-left">
+								<img src="img/gallery-page/6.jpg" alt="6">
+							</a>
+						</div>
+						<div class="gallery__inner-right gallery__inner-right_reverse">
+							<div class="gallery__inner-right-1">
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/7.jpg" alt="7">
+								</a>
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/8.jpg" alt="8">
+								</a>
+							</div>
+							<div class="gallery__inner-right-2">
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/9.jpg" alt="9">
+								</a>
+								<a data-gallery href="" class="gallery__item-right">
+									<img src="img/gallery-page/10.jpg" alt="10">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

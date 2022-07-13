@@ -1,0 +1,183 @@
+.contacts {
+
+      &__title {
+            line-height: 60px;
+            margin: 55px 0 40px 0;
+            padding-bottom: 40px;
+            position: relative;
+
+            @media (max-width: 1024px) {
+                  margin: 30px 0 30px 0;
+                  padding-bottom: 25px;
+            }
+
+            @media (max-width: 1024px) {
+                  padding-bottom: 8px;
+            }
+
+            @media (max-width: 580px) {
+                  margin: 10px 0 23px 0;
+                  line-height: 40px;
+            }
+
+            &::after {
+                  content: '';
+                  position: absolute;
+                  width: 205px;
+                  border: 1px solid #6D7278;
+                  bottom: 0;
+                  left: 0;
+
+                  @media (max-width: 1024px) {
+                        width: 173px;
+                  }
+
+                  @media (max-width: 670px) {
+                        width: 146px;
+                  }
+
+                  @media (max-width: 580px) {
+                        width: 118px;
+                  }
+            }
+      }
+
+      &__body {
+            padding-left: 25.6%;
+
+            @media (max-width: 768px) {
+                  padding-left: 0;
+            }
+      }
+
+      &__socials {
+            max-width: 284px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 19px;
+
+            @media (max-width: 580px) {
+                  max-width: 215px;
+            }
+      }
+
+      &__socials-link {
+            color: inherit;
+            font-size: 16px;
+            line-height: 18px;
+
+            &:hover {
+                  opacity: 0.4;
+                  transition: 0.3s ease 0s;
+            }
+      }
+
+      &__text {
+            color: #707070;
+            margin-bottom: 10px;
+      }
+}
+
+.map iframe {
+      @media (max-width: 1024px) {
+            height: 400px;
+      }
+
+      @media (max-width: 425px) {
+            height: 320px;
+      }
+}
+
+
+.info-contacts {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+
+      &__tel {
+            color: inherit;
+      }
+
+      &__adress {
+            color: inherit;
+            margin-bottom: 16px;
+      }
+
+      &__email {
+            color: #363838;
+            font-weight: 600;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                  opacity: 0.4;
+                  transition: 0.3s ease 0s;
+            }
+      }
+}
+
+.form-contacts {
+      padding-bottom: 100px;
+
+      @media (max-width: 1024px) {
+            padding-bottom: 50px;
+      }
+
+      @media (max-width: 580px) {
+            padding-bottom: 25px;
+      }
+
+      &__input-body {
+            display: flex;
+
+            @media (max-width: 466px) {
+                  flex-wrap: wrap;
+            }
+      }
+
+      &__input {
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 20px;
+            flex: 0 1 50%;
+            padding: 6px 6px 6px 15px;
+            font-size: 16px;
+            color: #A1A1A1;
+            line-height: 28px;
+
+            @media (max-width: 466px) {
+                  flex: 0 0 100%;
+            }
+
+            @media (max-width: 425px) {
+                  font-size: 14px;
+            }
+
+            &:not(:last-child) {
+                  margin-right: 10px;
+
+                  @media (max-width: 466px) {
+                        margin-right: 0px;
+                        margin-bottom: 10px;
+                  }
+            }
+      }
+
+      &__textarea {
+            display: block;
+            border: 1px solid #DFDFDF;
+            border-radius: 24px;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 14px 14px 83px 15px;
+            font-size: 16px;
+            color: #A1A1A1;
+            line-height: 28px;
+            margin: 13px 0 20px 0;
+
+            @media (max-width: 425px) {
+                  font-size: 14px;
+            }
+      }
+}

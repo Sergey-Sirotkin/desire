@@ -1,0 +1,233 @@
+.container {
+
+    &__top {
+        height: 342px;
+        background: #DFDFDF;
+
+        @media (max-width: 991px) {
+            height: 293px;
+        }
+
+        @media (max-width: 500px) {
+            height: 452px;
+        }
+
+        @media (max-width: 328px) {
+            height: 470px;
+        }
+    }
+
+    &__bottom {
+        min-height: 110px;
+        background: #363838;
+
+        @media (max-width: 991px) {
+            min-height: 110px;
+        }
+
+        @media (max-width: 991px) {
+            min-height: 70px;
+        }
+    }
+}
+
+
+.footer {
+
+    &__top {
+        display: flex;
+
+        @media (max-width: 991px) {
+            justify-content: space-between;
+        }
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+    }
+
+    &__left {
+        padding: 61px 0 80px 0;
+        margin-right: 88px;
+
+        @media (max-width: 1036px) {
+            margin-right: 48px;
+        }
+
+        @media (max-width: 991px) {
+            margin-right: 0px;
+            padding: 13px 0;
+        }
+
+        @media (max-width: 530px) {
+            padding: 25px 35px 25px 0;
+        }
+
+        @media (max-width: 500px) {
+            padding: 25px 0 25px 0;
+        }
+    }
+
+    &__left-title {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 14px;
+    }
+
+    &__left-text {
+        max-width: 476px;
+        margin-bottom: 16px;
+
+        @media (max-width: 991px) {
+            max-width: 360px;
+        }
+
+        @media (max-width: 640px) {
+            max-width: 220px;
+            line-height: 20px;
+        }
+
+        @media (max-width: 500px) {
+            max-width: 100%;
+        }
+    }
+
+    &__left-email {
+        font-weight: 600;
+        font-size: 14px;
+        color: #363838;
+        align-items: center;
+        display: flex;
+
+        &:hover {
+            opacity: 0.4;
+            transition: 0.3s ease 0s;
+        }
+    }
+
+    &__form {
+        margin-top: 22px;
+
+        @media (max-width: 991px) {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+        }
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
+    }
+
+    &__input {
+        border: 1px solid #6A6969;
+        box-sizing: border-box;
+        border-radius: 21px;
+        background-color: transparent;
+        min-width: 368px;
+        min-height: 40px;
+        padding: 6px 10px 6px 18px;
+        margin-right: 10px;
+
+        @media (max-width: 991px) {
+            min-width: 200px;
+            margin: 0 0 5px 0;
+        }
+
+        @media (max-width: 500px) {
+            text-align: center;
+        }
+    }
+
+    &__right {
+        display: flex;
+        font-weight: 600;
+        padding: 63px 0 81px 0;
+
+        @media (max-width: 1036px) {
+            padding: 50px 0;
+        }
+
+        @media (max-width: 580px) {
+            padding: 66px 0;
+        }
+
+        @media (max-width: 500px) {
+            padding: 0 0 0 0;
+            justify-content: space-around;
+        }
+    }
+
+    &__right-socials {
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+
+        @media (max-width: 1036px) {
+            margin-right: 60px;
+        }
+
+        span {
+            margin-left: 20px;
+        }
+    }
+
+    &__right-social {
+        display: flex;
+        align-items: center;
+        color: #707070;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        &:hover {
+            opacity: 0.4;
+            transition: 0.3s ease 0s;
+        }
+    }
+
+    &__right-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__right-link {
+        color: #707070;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        &:hover {
+            opacity: 0.4;
+            transition: 0.3s ease 0s;
+        }
+    }
+
+    &__bottom-text {
+        color: #A1A1A1;
+        text-align: center;
+        align-items: center;
+        margin: 0px auto;
+        padding: 42px 0;
+
+        @media (max-width: 991px) {
+            padding: 25px 0;
+        }
+    }
+}
+
+.btn {
+    color: #FFFFF0;
+    background-color: #363838;
+    font-weight: 600;
+    min-width: 160px;
+    min-height: 40px;
+    text-align: center;
+    border-radius: 21px;
+
+    &:hover {
+        background-color: #808585;
+    }
+}
