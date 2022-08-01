@@ -866,7 +866,9 @@ body {
   height: 616px;
 }
 
-.slogan__container {
+.slogan__inner {
+  max-width: 1140px;
+  margin: 0 auto;
   padding: 172px 0 190px 30px;
 }
 
@@ -2694,7 +2696,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     height: 400px;
   }
 
-  .slogan__container {
+  .slogan__inner {
     padding: 80px 0 100px 30px;
   }
 
@@ -2957,7 +2959,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     font-size: 30px;
   }
 
-  .slogan__container {
+  .slogan__inner {
     padding: 110px 25px 100px 25px;
   }
 
@@ -3004,7 +3006,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     height: 300px;
   }
 
-  .slogan__container {
+  .slogan__inner {
     padding: 75px 25px 100px 25px;
   }
 

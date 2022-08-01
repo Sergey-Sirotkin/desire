@@ -348,7 +348,9 @@
 		}
 	}
 
-	&__container {
+	&__inner {
+		max-width: 1140px;
+		margin: 0 auto;
 		padding: 172px 0 190px 30px;
 
 		@media (max-width: 1200px) {
